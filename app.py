@@ -28,8 +28,8 @@ if staff_file and resource_file:
     filtered_df = resource_df[resource_df["clean_id"].isin(staff_ids)].copy()
 
     # Enrichissement
-    filtered_df["Mois"] = "Mai 2025"
-    filtered_df["Date"] = pd.to_datetime("2025-05-01")
+    filtered_df["Mois"] = "Juin 2025"
+    filtered_df["Date"] = pd.to_datetime("2025-06-01")
     filtered_df["Source fichier"] = staff_file.name
     filtered_df.drop(columns=["clean_id"], inplace=True)
 
@@ -42,7 +42,7 @@ if staff_file and resource_file:
     st.download_button(
         label="📥 Télécharger le fichier Excel final",
         data=output.getvalue(),
-        file_name="staff_mai_2025.xlsx",
+        file_name="staff_juin_2025.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
 else:
