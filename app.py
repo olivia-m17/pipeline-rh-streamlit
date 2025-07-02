@@ -4,7 +4,7 @@ from io import BytesIO
 
 st.set_page_config(page_title="Traitement RH", page_icon="📊")
 
-st.title("📊 Traitement des Fichiers RH – Pipeline Automatisé")
+st.title(" Traitement des Fichiers RH – Pipeline Automatisé")
 
 # === Upload des fichiers ===
 staff_file = st.file_uploader("🧑‍💼 Fichier Staff (format: staff MMAAAA.xlsx)", type=["xlsx"])
