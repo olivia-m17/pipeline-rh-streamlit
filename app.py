@@ -12,7 +12,7 @@ resource_file = st.file_uploader("📁 Fichier Ressource", type=["xlsx"])
 
 if staff_file and resource_file:
     try:
-        # Lire les fichiers
+        # Lecture des fichiers
         staff_df = pd.read_excel(staff_file)
         resource_df = pd.read_excel(resource_file)
 
@@ -47,7 +47,7 @@ if staff_file and resource_file:
         output.seek(0)
 
         st.download_button(
-            label="📥 Télécharger le fichier Excel final",
+            label="Télécharger le fichier Excel final",
             data=output,
             file_name="staff_juin_2025.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
