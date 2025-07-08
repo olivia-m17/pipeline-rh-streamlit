@@ -1,4 +1,4 @@
-# pipeline-rh-streamlit
+# Pipeline-rh-streamlit
 # Instructions 
 #### Ce code est lié à streamlit
 #### Ouvrir l'app
