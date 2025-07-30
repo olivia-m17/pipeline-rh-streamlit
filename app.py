@@ -32,8 +32,8 @@ if staff_file and resource_file:
         filtered_df = resource_df[resource_df["clean_id"].isin(staff_ids)].copy()
 
         # === ENRICHISSEMENT ===
-        filtered_df["Mois"] = "Juin 2025"
-        filtered_df["Date"] = pd.to_datetime("2025-06-01")
+        filtered_df["Mois"] = "Juillet 2025"
+        filtered_df["Date"] = pd.to_datetime("2025-07-01")
         filtered_df["Source fichier"] = staff_file.name
         filtered_df.drop(columns=["clean_id"], inplace=True)
 
