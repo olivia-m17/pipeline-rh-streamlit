@@ -7,8 +7,8 @@ st.set_page_config(page_title="Traitement RH", page_icon="📊")
 st.title(" Traitement des Fichiers RH – Pipeline Automatisé")
 
 # === Upload des fichiers ===
-staff_file = st.file_uploader("🧑‍💼 Fichier Staff (format: staff MMAAAA.xlsx)", type=["xlsx"])
-resource_file = st.file_uploader("📁 Fichier Ressource", type=["xlsx"])
+staff_file = st.file_uploader(" Fichier Staff (format: staff MMAAAA.xlsx)", type=["xlsx"])
+resource_file = st.file_uploader(" Fichier Ressource", type=["xlsx"])
 
 if staff_file and resource_file:
     try:
