@@ -1,4 +1,4 @@
-# 📊 Application Streamlit – Traitement Fichiers Staff
+#  Application Streamlit – Traitement Fichiers Staff
 
 Cette application Streamlit permet de traiter deux fichiers Excel (Staff et Ressource) afin de :
 
@@ -10,7 +10,7 @@ Cette application Streamlit permet de traiter deux fichiers Excel (Staff et Ress
 
 ---
 
-## 🚀 Fonctionnement
+##  Fonctionnement
 
 ### 1️⃣ Chargement des fichiers
 - L’utilisateur charge deux fichiers via l’interface :
